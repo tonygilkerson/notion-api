@@ -2,6 +2,20 @@
 
 Scripts to interact with notion via api
 
+## Prepare your Mac
+
+Ref [install-homebrew-on-mac](https://setapp.com/how-to/install-homebrew-on-mac)
+
+Open a terminal (command+space then type terminal)
+
+```sh
+# Install xcode
+xcode-select --install
+
+# Install homebrew
+/bin/bash bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+
 ## Integration
 
 * [create-a-notion-integration](https://developers.notion.com/docs/create-a-notion-integration)
